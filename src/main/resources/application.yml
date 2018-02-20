@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demojpa
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    username: root
+    password: Mz.19950528
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 5556
+logging:
+  level: 
+    org.hibernate.SQL: DEBUG
